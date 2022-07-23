@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop - Shopping Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+<body>
+    <div id="nav">
+        <div id="menu">
+            <img class="logo" src="img/logo.png" alt="">
+            <div id="menu-icons">
+                <ul>
+                    <li><a href="index.html"><span class="material-icons">home</span>
+                            <p>Home</p>
+                        </a></li>
+                    <li><a href="shop.html"><span class="material-icons">shopping_bag</span>
+                            <p>Shop</p>
+                        </a></li>
+                    <li><a href="Blog.html"><span class="material-icons">newspaper</span>
+                            <p>Blog</p>
+                        </a></li>
+                    <li><a href="about.html"><span class="material-icons">groups</span>
+                            <p>About</p>
+                        </a></li>
+                    <li><a href="contact.html"><span class="material-icons">contact_support</span>
+                            <p>Contact</p>
+                        </a></li>
+                    <li><a class="active" href="cart.html"><span class="material-icons">shopping_cart</span>
+                            <p>Cart</p>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <section id="mobilemenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class='active-mobile-menu' href="cart.html">Cart</a></li>
+                <a href="#" style="background-color: black;border-radius: 50%;padding: 5px;"><i
+                        class="fas fa-arrow-up"></i>
+
+                </a>
+            </ul>
+        </section>
+    </div>
+    <section id="shop-header" class="contact-header">
+        <h1>#cart</h1>
+        <p>Add your coupon code & SAVE upto 70% !</p>
+    </section>
+
+    <section id="cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>product</td>
+                    <td>price</td>
+                    <td>quantity</td>
+                    <td>subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="far fa-dot-circle"></i></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronout T-shirt</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.9</td>
+                </tr>
+
+                <tr>
+                    <td><i class="far fa-dot-circle"></i></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronout T-shirt</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.9</td>
+                </tr>
+
+                <tr>
+                    <td><i class="far fa-dot-circle"></i></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronout T-shirt</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.9</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add">
+        <div class="coupon">
+            <label for="">
+                <h3>Apply Coupon</h3>
+            </label>
+            <div>
+                <input type="text" placeholder="Enter The Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+
+        <div class="table">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>
+                        Shipping
+                    </td>
+                    <td>
+                        FREE
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>TOTAL</strong></td>
+                    <td><strong>$335</strong></td>
+                </tr>
+            </table>
+            <button>Proceed To Checkout</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p div.col:nth-child(1)><strong>Address:</strong> Nallsopara (East),Mumbai-401209,Maharastra</p>
+            <p><strong>Phone:</strong> +918010047704</p>
+            <div class="icon">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#youtube"><i class="fab fa-youtube"></i></a>
+                    <a href="#pintrest"><i class="fab fa-pinterest-p"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>
+                My Account
+            </h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+        </div>
+        <div class="col installapp">
+            <h4>Install App</h4>
+            <p>From App Store or Google Store</p>
+            <div class="store">
+                <a href=""><img src="img/pay/app.jpg" alt=""></a>
+                <a href="#"><img src="img/pay/play.jpg" alt=""></a>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+
+    </footer>
+    <div class="copyright">
+        <p> &copy; 2022 Atul works for you </p>
+    </div>
+</body>
+
+</html>
